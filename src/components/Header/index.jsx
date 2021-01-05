@@ -1,7 +1,8 @@
 import React from "react";
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { Container, Row, Col, Card, Image } from "react-bootstrap";
 import "./style.css";
 import video from "../../img/smoke.mp4";
+import img3 from "../../img/pra.JPG";
 
 const Header = () => {
   return (
@@ -9,10 +10,21 @@ const Header = () => {
       <Container>
         <Row>
           <Col>
-            <Card className='section'>
+            <Card className="section">
               {/* <Card.Img variant="top" src={img} /> */}
-              <h1>
+              {/* <h1>
 
+                <span>P</span>
+                <span>R</span>
+                <span>A</span>
+                <span>S</span>
+                <span>A</span>
+                <span>M</span>
+                <span>S</span>
+                <span>H</span>
+                <span>A</span>
+              </h1> */}
+              <h1>
                 <span>P</span>
                 <span>R</span>
                 <span>A</span>

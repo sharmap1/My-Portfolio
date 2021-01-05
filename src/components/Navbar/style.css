@@ -10,3 +10,6 @@
   color: rgb(1, 253, 253) !important;
   font-size: 22px !important;
 }
+.bg-dark {
+  background-color: black !important;
+}

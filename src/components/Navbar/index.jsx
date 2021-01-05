@@ -7,7 +7,7 @@ import { GrGithub, GrLinkedin } from "react-icons/gr";
 const NavbarAbout = () => {
   return (
     <>
-      <Container style={{ backgroundColor: "black" }}>
+      <Container>
         <Navbar bg="dark" variant="dark">
           <Nav className="mr-auto">
             <Nav.Link href="/">Home</Nav.Link>

@@ -21,7 +21,7 @@
   pointer-events: none;
 }
 video {
-  object-fit: cover;
+  object-fit:cover;
 }
 h1 {
   padding: 0;
@@ -54,3 +54,14 @@ h1 span {
     filter: blur(0px);
   }
 }
+/* h3 {
+  padding: 0;
+  margin: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 2.5em;
+  font-family: sans-serif;
+  letter-spacing: 0.1em;
+}
+ */
