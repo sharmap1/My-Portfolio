@@ -1,12 +1,10 @@
-.container-fluid {
+.container-prop {
   margin-top: 20px;
 }
 .text {
-  /* color: rgb(158, 98, 98); */
   text-align: center;
 }
 .card {
-  margin: 5px ;
   color: rgb(49, 232, 238) !important;
 }
 

@@ -1,23 +1,5 @@
-.icons li {
-  display: inline-block;
-}
 .p {
   font-size: 8px !important;
-}
-
-.icons li {
-  display: inline-block;
-  font-size: 28px !important;
-  margin-top: 15px;
-  color: white;
-}
-
-.icons-1 li {
-  display: inline-block;
-  margin-top: 5px;
-}
-.container {
-  margin-top: 20px;
 }
 .card-header {
   text-align: center;
@@ -25,11 +7,115 @@
   font-size: 18px;
   margin-top: 30px;
 }
-
-a {
-  color: white !important;
+.cardinfo {
+  margin-top: 150px;
+  color: rgb(49, 232, 238);
+  background-color: black;
 }
-.card {
+
+.infocard {
+  height: 370px;
+  background-color: black;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.24);
+  border: 2px solid rgba(7, 7, 7, 0.12);
+  font-size: 16px;
+  transition: all 0.3s ease;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: all 0.3s ease;
+}
+
+.infoicon {
+  margin: 0 auto;
+  width: 50%;
+  height: 50px;
+  max-width: 50px;
+  background: linear-gradient(
+    90deg,
+    #889b8f 0%,
+    #43ace9 40%,
+    rgba(0, 0, 0, 0.28) 60%
+  );
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.8s ease;
+  background-position: 0px;
+  background-size: 200px;
+}
+
+.material-icons.md-18 {
+  font-size: 18px;
+}
+.material-icons.md-24 {
+  font-size: 24px;
+}
+.material-icons.md-36 {
+  font-size: 36px;
+}
+.material-icons.md-48 {
+  font-size: 48px;
+}
+
+.infocard .infotitle {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  margin-top: 30px;
+  color: rgb(50, 209, 90);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.infocard .infotext {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 13px;
+  text-align: center;
   margin-top: 20px;
+  color: rgb(84, 236, 236);
+  font-weight: 200;
+  letter-spacing: 2px;
+  opacity: 0;
+  max-height: 0;
+  transition: all 0.3s ease;
 }
 
+.infocard:hover {
+  height: 390px;
+}
+
+.infocard:hover .info {
+  height: 90%;
+}
+
+.infocard:hover .infotext {
+  transition: all 0.3s ease;
+  opacity: 1;
+  max-height: 40px;
+}
+
+.infocard:hover .infoicon {
+  background-position: -120px;
+  transition: all 0.3s ease;
+}
+
+.infocard:hover .infoicon i {
+  background: linear-gradient(90deg, #7ee1ff, #4897ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+.col .row {
+  margin-left: 0rem !important;
+  margin-right: 0rem !important;
+}

@@ -1,4 +1,11 @@
 #root {
   background-color: black;
+
   min-height: 100vh;
+}
+.container {
+  margin-top: 0px !important;
+}
+.row {
+  margin-bottom: 0px !important;
 }

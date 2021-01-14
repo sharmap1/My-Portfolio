@@ -1,44 +1,39 @@
 import React from "react";
-import { Container, Row, Col, Card } from "react-bootstrap";
 import "./style.css";
-import video from "../../img/smoke.mp4";
+import videoSource from "../../img/smoke.mp4";
+import Typical from "react-typical";
 
 const Header = () => {
   return (
     <>
-      <Container>
-        <Row>
-          <Col>
-            <Card className="section">
-              {/* <Card.Img variant="top" src={img} /> */}
-              {/* <h1>
+      <div className="Container">
+        <video autoPlay="autoplay" loop="loop" muted className="Video">
+          <source src={videoSource} type="video/mp4" />
+        </video>
 
-                <span>P</span>
-                <span>R</span>
-                <span>A</span>
-                <span>S</span>
-                <span>A</span>
-                <span>M</span>
-                <span>S</span>
-                <span>H</span>
-                <span>A</span>
-              </h1> */}
-              <h1>
-                <span>P</span>
-                <span>R</span>
-                <span>A</span>
-                <span>S</span>
-                <span>A</span>
-                <span>M</span>
-                <span>S</span>
-                <span>H</span>
-                <span>A</span>
-              </h1>
-              <video src={video} type="video/mp4" autoPlay muted></video>
-            </Card>
-          </Col>
-        </Row>
-      </Container>
+        <div className="Content">
+          <div className="SubContent">
+            <h1>Hi, I am Prasamsha Sharma</h1>
+            <div className="section">
+              <p>
+                I'm a {""}
+                <Typical
+                  loop={Infinity}
+                  wrapper="b"
+                  steps={[
+                    "Developer 💻",
+                    1000,
+                    "Youtuber 🤟",
+                    1000,
+                    "Painter 🖌️",
+                    1000,
+                  ]}
+                />
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 };

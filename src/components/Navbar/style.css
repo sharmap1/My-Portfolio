@@ -1,10 +1,8 @@
 .navbar-dark .navbar-nav .nav-link {
-  /* color: rgba(255, 255, 255, 0.5); */
-  color: rgb(195, 236, 241) !important;
+  color: rgba(102, 221, 92, 0.986) !important;
   font-size: 20px !important;
   text-align: center;
   font-family: "Big Shoulders Stencil Text", cursive;
-  padding: 10px;
 }
 .navbar-dark .navbar-nav .nav-link:hover {
   color: rgb(1, 253, 253) !important;
@@ -12,4 +10,13 @@
 }
 .bg-dark {
   background-color: black !important;
+}
+
+#responsive-navbar-nav {
+  line-height: 20px !important;
+}
+a.navbar-brand {
+  color: #0f0 !important;
+  font-family: "Big Shoulders Stencil Text", cursive;
+  font-size: 20px !important;
 }

@@ -1,13 +1,15 @@
 import React from "react";
 import Header from "../../components/Header";
-import { Row, Container } from "react-bootstrap";
+import { Row, Container, Col } from "react-bootstrap";
 
 const Home = () => {
   return (
     <>
       <Container>
-        <Row md={12}>
-          <Header />
+        <Row>
+          <Col>
+            <Header />
+          </Col>
         </Row>
       </Container>
     </>

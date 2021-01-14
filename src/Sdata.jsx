@@ -1,22 +1,11 @@
-import IMG1 from "./img/power.jpg";
 import IMG2 from "./img/slothy.gif";
 import IMG3 from "./img/crystal1.jpg";
 import IMG4 from "./img/minion1.png";
-import IMG5 from "./img/friend.jpg";
 import IMG6 from "./img/disney.jpg";
 
 const Sdata = [
   {
     id: 1,
-    imgsrc: IMG1,
-    title: "Psychic Game",
-    summary:
-      "This is a psychic computer game. User guesses the letter that the computer is thinking. You only have 9 guesses! Once you win or you run out of guesses, computer will choose a new letter for the user to guess.",
-    github: "https://github.com/sharmap1/Psychic-Game",
-    link: "https://sharmap1.github.io/Psychic-Game/",
-  },
-  {
-    id: 2,
     imgsrc: IMG2,
     title: "Giftastic Animals",
     summary:
@@ -25,7 +14,7 @@ const Sdata = [
     link: "https://sharmap1.github.io/Giftastic/",
   },
   {
-    id: 3,
+    id: 2,
     imgsrc: IMG3,
     title: "Crystal Collector",
     summary:
@@ -34,7 +23,7 @@ const Sdata = [
     link: "https://sharmap1.github.io/Crystal-Collector/",
   },
   {
-    id: 4,
+    id: 3,
     imgsrc: IMG4,
     title: "Minion Trivia",
     summary:
@@ -43,16 +32,7 @@ const Sdata = [
     link: "https://sharmap1.github.io/Trivia-Game/",
   },
   {
-    id: 5,
-    imgsrc: IMG5,
-    title: "Friend Finder",
-    summary:
-      "This is a compatibility-based FriendFinder application -- basically a dating app. This full-stack site will take in results from users' surveys, then compare their answers with those from other users.The app will then display the name and picture of the user with the best overall match.",
-    github: "https://github.com/sharmap1/Friend-Finder",
-    link: "https://hidden-everglades-93295.herokuapp.com/",
-  },
-  {
-    id: 6,
+    id: 4,
     imgsrc: IMG6,
     title: "Disney Movies",
     summary: "This is a app which will showcase the top 10 Disney movies ever.",
