@@ -11,17 +11,15 @@ const Aboutpic = () => {
         <Container>
           <Row>
             <Col md={{ span: 4, offset: 4 }}>
-              <Card style={{ borderRadius: "100%", backgroundColor: "black" }}>
                 <Image
                   variant="top"
                   src={img2}
                   style={{
                     borderRadius: "100%",
-                    height: "300px",
+                    height: "200px",
                     boxShadow: "5px 10px  50px lightblue",
                   }}
                 />
-              </Card>
             </Col>
           </Row>
         </Container>

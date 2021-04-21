@@ -2,6 +2,8 @@ import IMG2 from "./img/slothy.gif";
 import IMG3 from "./img/crystal1.jpg";
 import IMG4 from "./img/minion1.png";
 import IMG6 from "./img/disney.jpg";
+import IMG7 from "./img/giphy.gif";
+import IMG8 from "./img/unpic.jpg";
 
 const Sdata = [
   {
@@ -38,6 +40,22 @@ const Sdata = [
     summary: "This is a app which will showcase the top 10 Disney movies ever.",
     github: "https://github.com/sharmap1/Disney-Movies",
     link: "https://disney-movies.netlify.app/",
+  },
+  {
+    id: 5,
+    imgsrc: IMG7,
+    title: "React-Giphy App",
+    summary: "This is a front end app that uses GIPHY API to make a dynamic web page that populates gifs of user choice.",
+    github: "https://github.com/sharmap1/Giphy-React-Hooks",
+    link: "https://giphytastic.netlify.app/",
+  },
+  {
+    id: 6,
+    imgsrc: IMG8,
+    title: "Unsplash-React App",
+    summary: "This is a front end app that uses Unsplash API to make a dynamic web page that populates free images.",
+    github: "https://github.com/sharmap1/Unsplash-React-Hooks",
+    link: "https://freepicsunsplash.netlify.app/",
   },
 ];
 

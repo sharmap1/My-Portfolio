@@ -2,12 +2,12 @@ import React from "react";
 import Information from "../../components/Information";
 import { Row, Container } from "react-bootstrap";
 import Adata from "../../Adata";
-import Aboutpic from "../../components/Aboutpic";
+// import Aboutpic from "../../components/Aboutpic";
 const About = () => {
   return (
     <>
-      <div class="clouds">
-        <Aboutpic />
+      {/* <div class="clouds">
+        <Aboutpic /> */}
         <Container>
           <Row md={3}>
             {Adata.map((val) => {
@@ -24,7 +24,7 @@ const About = () => {
             })}
           </Row>
         </Container>
-      </div>
+      {/* </div> */}
     </>
   );
 };

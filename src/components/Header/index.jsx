@@ -2,6 +2,7 @@ import React from "react";
 import "./style.css";
 import videoSource from "../../img/smoke.mp4";
 import Typical from "react-typical";
+import Aboutpic from "../Aboutpic";
 
 const Header = () => {
   return (
@@ -13,6 +14,7 @@ const Header = () => {
 
         <div className="Content">
           <div className="SubContent">
+            <Aboutpic />
             <h1>Hi, I am Prasamsha Sharma</h1>
             <div className="section">
               <p>

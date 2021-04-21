@@ -12,9 +12,9 @@ import Home from "./pages/Home";
 function App() {
   return (
     <>
-      <Container>
+      {/* <Container>
         <Row>
-          <Col>
+          <Col> */}
             <Router>
               <NavbarAbout />
               <Switch>
@@ -32,9 +32,9 @@ function App() {
                 </Route>
               </Switch>
             </Router>
-          </Col>
+          {/* </Col>
         </Row>
-      </Container>
+      </Container> */}
     </>
   );
 }
