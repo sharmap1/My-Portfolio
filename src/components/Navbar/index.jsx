@@ -7,9 +7,7 @@ import { GrGithub, GrLinkedin } from "react-icons/gr";
 const NavbarAbout = () => {
   return (
     <>
-      <Container 
-      // style={{ marginBottom: "160px" }}
-      >
+      <Container style={{ marginBottom: "160px" }}>
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
           <Navbar.Brand href="/">Home</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />

@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import "./style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -10,6 +11,9 @@ const Information = (props) => {
   }, []);
   return (
     <>
+      {/* <Container>
+        <Row>
+          <Col> */}
       <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
         <div class="infocard">
           <div class="infoicon">
@@ -19,6 +23,9 @@ const Information = (props) => {
           <p class="infotext">{props.summary}</p>
         </div>
       </div>
+      {/* </Col>
+        </Row>
+      </Container> */}
     </>
   );
 };

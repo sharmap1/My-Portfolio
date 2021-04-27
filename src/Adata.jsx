@@ -1,4 +1,3 @@
-
 const Adata = [
   {
     id: 1,
@@ -19,6 +18,14 @@ const Adata = [
     title: "What I do",
     summary:
       "Enjoys turning complex problems into simple, beautiful and intuitive responsive designs. When not coding, loves to paint, especially Buddha, trees and mountains.",
+  },
+  {
+    id: 4,
+    summary: " Email: prasamshari @gmail.com     or  Cell :   (206)-519-8877",
+    title: "Contact Me",
+    // summary: "prasamshari@gmail.com  hhhhhhhhhh cell: 206-519-8877 ",
+    // title: "Contact Me",
+    // summary: "prasamshari@gmail.com cell: 206-519-8877",
   },
 ];
 
