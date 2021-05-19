@@ -6,6 +6,7 @@ import IMG8 from "./img/unpic.jpg";
 import IMG9 from "./img/food.jpg";
 import IMG10 from "./img/fun.jpg";
 import IMG11 from "./img/clicky.jpg";
+import IMG1 from "./img/bird.jpg";
 
 const Sdata = [
   {
@@ -78,6 +79,15 @@ const Sdata = [
       "This is a app which uses APIs to show cat facts, giphy, jokes, trivia questions, pokemon, quotes and unsplash images.",
     github: "https://github.com/sharmap1/Fun-App-React-Api",
     link: "https://gallant-hermann-01804b.netlify.app/",
+  },
+  {
+    id: 9,
+    imgsrc: IMG1,
+    title: "Memory Game",
+    summary:
+      "The card memory game is a simple game to test the player’s memory made with react hooks.",
+    github: "https://github.com/sharmap1/React-MemoryGame",
+    link: "https://memory-game-react-hooks.netlify.app/",
   },
 ];
 
